@@ -1,0 +1,9 @@
+<form name="login_form" onsubmit="return controllFormFill(this)" action="/test_login/mod_login/second_step_login.php" method="post">
+	<label><input type="radio" name="is_registered" value="NO" onclick="changeAuthMethod()">Зарегистрироваться сейчас</label><br>
+	<label><input type="radio" name="is_registered" value="YES" checked onclick="changeAuthMethod()">У меня уже есть анкета</label><br><br>
+	<label for="user_email">Введите Ваш E-mail:</label><input type="text" class="input_text" name="user_email" id="user_email"><br>
+	<label for="user_passwd">Введите Ваш пароль:</label><input type="password" class="input_text" name="user_passwd" id="user_passwd">
+	<a href="#">Забыли пароль?</a><br><br>
+	<input type="submit" class="input_button" id="auth_button" value="Войти">
+	<input type="checkbox" name="remember_me">Запомнить меня</input>
+</form>

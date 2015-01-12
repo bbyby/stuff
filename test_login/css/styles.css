@@ -1,0 +1,24 @@
+html{
+	width: 100%;
+	margin: 0;
+}
+
+body{
+	margin: 0;
+	font-family: Verdana, sens-serif;
+	font-size: 10px;
+	background-color: LightCyan;
+}
+
+hr{
+	display: block;
+	width: 100%;
+	background-color: CornflowerBlue;
+	border: 0;
+	height: 5px;
+	margin: 0 0 0 0;
+}
+
+a{
+	color: LightSkyBlue;
+}
